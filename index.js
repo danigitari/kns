@@ -16,7 +16,7 @@ for( const [key ,val] of Object.entries(data)){
     for(let i; i < val.length; i++){
         if(i > 2){
             val[i] = '*';
-           console.log(val)
+            console.log(val)
             
  }
 
@@ -25,3 +25,8 @@ for( const [key ,val] of Object.entries(data)){
 
 
 }
+
+
+// loop through the object values ,
+// loop through each of the values and update the character when index of the character  is greater than 2,
+// add 
